@@ -9,4 +9,7 @@ router.post('/create-student', StudentControllers.createStudent);
 // Get students route
 router.get('/', StudentControllers.getAllStudents);
 
+// Get a single student route
+router.get('/:studentId', StudentControllers.getSingleStudent);
+
 export const StudentRoutes = router;
