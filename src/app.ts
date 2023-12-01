@@ -3,7 +3,7 @@ import express, { Application, Request, Response } from 'express';
 import { StudentRoutes } from './app/modules/student/student.route';
 const app: Application = express();
 
-// Parser
+// Parsers
 app.use(express.json());
 app.use(cors());
 
